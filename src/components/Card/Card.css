@@ -1,0 +1,43 @@
+
+/*영화 카드*/
+.section-card{
+    position:relative;
+    width:300px;
+    height:550px;
+    margin:1rem;
+    
+    background-color: rgb(78, 78, 133);
+}
+
+.card-description{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1.5rem 1rem;
+    color:white;
+    font-weight: 400;
+}
+
+/*Hover 이벤트 시, 영화 설명*/
+.card-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    overflow-y:auto;
+
+    display:flex;
+    flex-direction: column;
+    
+    background-color: rgb(0,0,0);
+    color:white;
+
+    opacity: 0.8;
+}
+
+.card-overlay> * {
+    margin:1.5rem;
+}

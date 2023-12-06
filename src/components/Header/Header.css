@@ -1,0 +1,68 @@
+.app__header{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #032541;
+
+    padding:1rem 5rem;
+}
+
+.app__header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__header-list{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:1rem;
+
+    list-style: none;
+}
+
+.app__header-list-item > a{
+    margin-left:1.5rem;
+    color:white;
+    font-weight: bold;
+}
+
+
+/*로그인 버튼 1*/
+.app__header-list-item:nth-child(4) > .app__header-login > div{
+    display:flex;
+    align-items: center;
+}
+
+.app__header-login > div > *{
+    margin-left:1rem;
+}
+
+.app__header-login button{
+    color:black;
+    background-color: white;
+    border-radius: 1rem;
+    padding:0.3rem 1rem;
+    border:0;
+    outline:0;
+}
+
+.app__header-login-ment{
+    color:white;
+}
+
+/*로그인 버튼 2*/
+.app__header-loginButton{
+    margin-left:1rem;
+}
+
+.app__header-loginButton button{
+    color:black;
+    background-color: white;
+    border-radius: 1rem;
+    padding:0.3rem 1rem;
+    border:0;
+    outline:0;
+}
